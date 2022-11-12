@@ -1,0 +1,491 @@
+body{
+    background-color: #f5f5f5;
+
+}
+:root {
+    --maincolor : #0078ff ;
+}
+.main{
+    color: var(--maincolor);
+}
+.progress{
+    --bs-progress-height: .75rem;
+
+}    
+
+#HOME{
+    background-image: url(../Img/sec1.jpg);
+    background-position: center center;
+    background-size: cover;
+
+}
+.title1 h1 {
+    font-size: 4.5rem;
+    color: #fff;
+    font-weight: 600;
+
+}
+.title1 h3::before {
+    content: "";
+    animation: tit 10s infinite;
+    font-size: 2.5rem;
+    font-weight: 600;
+   
+}
+
+@keyframes tit {
+    1%{
+        content: "P" ;
+
+    }
+    2%{
+        content: " Ph " ;
+        
+    }
+    3%{
+        content: " Pho  " ;
+        
+    }
+    4%{
+        content: " Phot " ;
+        
+    }
+    5%{
+        content: " Photo " ;
+        
+    }
+    6%{
+        content: " Photog " ;
+        
+    }
+    7%{
+        content: "Photogr " ;
+        
+    }
+    8%{
+        content: " Photogra " ;
+        
+    }
+    9%{
+        content: " Photograp " ;
+        
+    }
+    10%{
+        content: " Photographe " ;
+        
+    }
+    11%{
+        content: "Photographer" ;
+    }
+    12%{
+        content: " Photographe " ;
+        
+    }
+    13%{
+        content: " Photograph" ;
+        
+    }
+    14%{
+        content: " Photogra " ;
+        
+    }
+    15%{
+        content: " Photogr" ;
+        
+    }
+    16%{
+        content: " Photog " ;
+        
+    }
+    17%{
+        content: " Photo " ;
+        
+    }
+    18%{
+        content: " Phot " ;
+        
+    }
+    19%{
+        content: " Pho " ;
+        
+    }
+    20%{
+        content: " Ph " ;
+        
+    }   
+    21%{
+        content: " P " ;
+
+    }
+    22%{
+        content: "  " ;
+        
+    }
+    23%{
+        content: " D  " ;
+        
+    }
+    24%{
+        content: " De " ;
+        
+    }
+    25%{
+        content: " Dev " ;
+        
+    }
+    26%{
+        content: " Deve " ;
+        
+    }
+    27%{
+        content: "Devel " ;
+        
+    }
+    28%{
+        content: " Develo " ;
+        
+    }
+    29%{
+        content: " Develop " ;
+        
+    }
+    30%{
+        content: " Develope " ;
+        
+    }
+    31%{
+        content: " Developer" ;
+    }
+    32%{
+        content: " Develope " ;
+        
+    }
+    33%{
+        content: " Develop " ;
+        
+    }
+    34%{
+        content: " Develo " ;
+        
+    }
+    35%{
+        content: " Devel " ;
+        
+    }
+    36%{
+        content: " Deve " ;
+        
+    }
+    37%{
+        content: " Dev " ;
+        
+    }
+    38%{
+        content: " De " ;
+        
+    }
+    39%{
+        content: " Des " ;
+        
+    }
+    40%{
+        content: " Desi " ;
+        
+    }    
+    42%{
+        content: " Desig " ;
+        
+    }
+    44%{
+        content: " Design " ;
+        
+    }
+    46%{
+        content: " Designer " ;
+        
+    }
+    48%{
+        content: " Designe " ;
+    
+    }
+    50%{
+        content: " Design " ;
+        
+    }
+    52%{
+        content: "Desig " ;
+        
+    }
+    54%{
+        content: " Desi " ;
+        
+    }
+    56%{
+        content: " Des " ;
+        
+    }
+    58%{
+        content: " De " ;
+        
+    }
+    60%{
+        content: " D " ;
+    }
+    62%{
+        content: "  " ;
+        
+    }
+    64%{
+        content: " F " ;
+    }
+    66%{
+        content: " Fr " ;
+    }
+    68%{
+        content: " Fre " ;
+    }
+    70%{
+        content: " Free " ;
+    }
+    72%{
+        content: " Freel  " ;
+    }
+    74%{
+        content: " Freela  " ;
+    }
+    76%{
+        content: " Freelan " ;
+    }
+    78%{
+        content: " Freelanc " ;
+    }
+    80%{
+        content: " Freelance" ;
+    }
+    82%{
+        content: "  Freelancer " ;
+    }
+    84%{
+        content: " Freelance " ;
+    }
+    86%{
+        content: " Freelanc " ;
+    }
+    88%{
+        content: "Freelan  " ;
+    }
+    90%{
+        content: "Freela  " ;
+    }
+    92%{
+        content: "Freel  " ;
+    }
+    94%{
+        content: "Free  " ;
+    }
+    96%{
+        content: "Fre  " ;
+    }
+    98%{
+        content: "Fr  " ;
+    }
+    99%{
+        content: "F  " ;
+    }
+    100%{
+        content: "  " ;
+    }
+
+
+    
+}
+
+.logonav{
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+
+}
+.linav li a{
+
+    font-size: 16px;
+    font-weight: 600;
+    position: relative;
+    animation-name: nav;
+    animation: .5s alternate infinite;
+
+}
+.linav li a::after{
+    content: "";
+   
+    
+}
+
+.linav li:hover a::after {
+content: "";
+position: absolute;
+top: 100%;
+left: 0;
+right: 0%;
+width: 90%;
+height: 3px;
+background-color: #fff;
+animation: nav .5s alternate ;
+
+
+
+}
+@keyframes nav {
+
+    0% {
+        width: 0%;
+
+    }
+    
+    100% {
+        width: 90%;
+        
+    }
+}
+
+
+
+
+
+.abouth::before{
+    position: absolute;
+    content: "";
+    left: 0  ;
+    right: 0;
+    width: 20%;
+    top: 100%;
+    height: 3px;
+    background-color: var(--maincolor) ;
+    transform: translateY( 8px );    
+}
+
+.title h2 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1e1e1e;
+
+}
+.title p::before {
+
+    content: "";
+    position: absolute;
+    left: 48%;
+    top: 170%;
+    width: 5%;
+    height: 3px;
+    background-color: var(--maincolor);
+}
+.iconser{
+    height: 100px;
+    width: 100px;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+    box-shadow: 0 0 0 10px #0078ff;
+    transition: all .2s;
+
+}
+.iconser:hover {
+    background-color: var(--maincolor);
+    color: #f5f5f5;
+    box-shadow: 0 0 0 10px #0077ff27;
+
+}
+.icontot{
+    color: white;
+    height: 75px;
+    width: 75px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+    box-shadow: 0 0 0 10px #f5f5f5;
+
+}
+.total{
+    background-image: url(../Img/counters-bg.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
+.layer2{
+    background-color: #0077ffc8;
+    width: 100%;
+    height: 100%;
+
+    }
+.iconwork{
+    color: #0078ff;
+    height: 50px;
+    width: 50px;
+    font-size: 2rem;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+    box-shadow: 0 0 0 4px #0078ff;
+    
+
+
+}
+.card-img-top{
+    transition: all 1s !important;
+}
+.scalo:hover .card-img-top{
+transform: scale( 1.25) !important;
+}
+.carousel-item img{
+    width: 12%;
+}
+.bgwork{
+    background-image: url(../Img/bgsec4.jpg);
+    background-position: center center ;
+    background-size: 100% 100% ;
+}
+.cirphoto{
+    width: 15px !important;
+    height: 15px !important;
+}
+.linkpost:hover h5{
+    color:#0078ff
+
+}
+.travelph{
+    width: 13%;
+    
+}
+.nonetra:hover img {
+    transform: none !important;
+}
+
+.hovv:hover{
+    color: #0078ff;
+}
+footer {
+    background: #0062d3;
+}
+.iconcont{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 1.55;
+    text-align: center;
+    box-shadow: 0 0 0 2px #0078ff;
+    transition: .7s all;
+
+}
+.iconcont:hover {
+    box-shadow: 0 0 0 2px #0077ff49;
+    color: white;
+    background-color: var(--maincolor) ;
+}
+#CONTACT {
+    background-image: url(../Img/bgsec4.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+}
